@@ -1,0 +1,59 @@
+{
+  "pages": [
+    "pages/index/main",
+    "pages/mine/main",
+    "pages/circle/main",
+    "pages/club/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#b3d4db",
+    "navigationBarTitleText": "大学生社团联合会",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#a9b7b7",
+    "backgroundColor": "#fafafa",
+    "selectedColor": "#11cd6e",
+    "borderStyle": "white",
+
+    "list": [{
+      "text": "首页",
+      "pagePath": "pages/index/main",
+      "iconPath": "static/tabs/home.png",
+      "selectedIconPath": "static/tabs/home-active.png"
+    },
+    {
+      "text": "圈子",
+      "pagePath": "pages/circle/main",
+      "iconPath": "static/tabs/orders.png",
+      "selectedIconPath": "static/tabs/orders-active.png"
+    },
+     {
+      "text": "我的",
+      "pagePath": "pages/mine/main",
+      "iconPath": "static/tabs/个人.png",
+      "selectedIconPath": "static/tabs/个人项.png"
+    }],
+
+    "items": [{
+      "name": "首页",
+      "pagePath": "pages/index/main",
+      "icon": "static/tabs/home.png",
+      "activeIcon": "static/tabs/home-active.png"
+    },
+    {
+      "name": "圈子",
+      "pagePath": "pages/circle/main",
+      "icon": "static/tabs/orders.png",
+      "activeIcon": "static/tabs/orders-active.png"
+    }, {
+      "name": "我的",
+      "pagePath": "pages/mine/main",
+      "icon": "static/tabs/个人.png",
+      "activeIcon": "static/tabs/个人项.png"
+    }
+  ],
+    "position": "bottom"
+  }
+}
